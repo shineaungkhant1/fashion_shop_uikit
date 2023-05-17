@@ -62,7 +62,7 @@ class TrendingAndModelDescriptionView extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         const Text(
-          "NEW 2020",
+          "NEW 2023",
           style: TextStyle(
             color: SECONDARY_PINK_COLOR,
             fontWeight: FontWeight.w600,
