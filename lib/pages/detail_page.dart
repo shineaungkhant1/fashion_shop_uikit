@@ -340,10 +340,10 @@ class FavoriteAndShareIconView extends StatelessWidget {
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
-        children: [
+        children: const [
           ExplicitAnimationFavouriteButton(),
-          const SizedBox(width: MARGIN_MEDIUM_3),
-          const Icon(
+          SizedBox(width: MARGIN_MEDIUM_3),
+          Icon(
             Icons.share,
             size: MARGIN_XLARGE,
             color: Colors.white,
