@@ -30,7 +30,7 @@ class RecommendedItemView extends StatelessWidget {
                     ),
                     const SizedBox(height: MARGIN_MEDIUM_2),
                     const Text(
-                      "Shoes",
+                      "Heels",
                       style: TextStyle(
                         color: SECONDARY_PINK_COLOR,
                         fontSize: TEXT_REGULAR_2X + 2,
