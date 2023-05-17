@@ -1,9 +1,9 @@
 import 'package:dots_indicator/dots_indicator.dart';
-import 'package:fashion_shop_uikit/dummy/dummy_size_list.dart';
 import 'package:fashion_shop_uikit/explicit_animations/explicit_animation_favourite_button.dart';
 import 'package:fashion_shop_uikit/explicit_animations/explicit_animation_shown_description_button.dart';
 import 'package:fashion_shop_uikit/resources/colors.dart';
 import 'package:fashion_shop_uikit/resources/dimens.dart';
+import 'package:fashion_shop_uikit/resources/string.dart';
 import 'package:fashion_shop_uikit/viewitems/size_view.dart';
 import 'package:flutter/material.dart';
 
@@ -66,7 +66,7 @@ class SizeYourSizeSectionView extends StatelessWidget {
         ),
         const SizedBox(height: MARGIN_MEDIUM_3),
         GridView.builder(
-          itemCount: dummySizeList.length,
+          itemCount: clothSizeList.length,
           padding: const EdgeInsets.only(left: MARGIN_MEDIUM_3),
           physics: const NeverScrollableScrollPhysics(),
           shrinkWrap: true,
@@ -76,7 +76,7 @@ class SizeYourSizeSectionView extends StatelessWidget {
           ),
           itemBuilder: (context, index) {
             return SizeView(
-              sizeVo: dummySizeList[index],
+              sizeVo: clothSizeList[index],
             );
           },
         ),

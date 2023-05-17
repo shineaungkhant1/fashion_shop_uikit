@@ -11,6 +11,8 @@ late AnimationController showDescriptionAnimationController;
 late Animation<double> rotationAnimation;
 
 class ExplicitAnimationShownDescriptionButton extends StatefulWidget {
+  const ExplicitAnimationShownDescriptionButton({super.key});
+
   @override
   State<ExplicitAnimationShownDescriptionButton> createState() =>
       _ExplicitAnimationShownDescriptionButtonState();

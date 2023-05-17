@@ -1,23 +1,28 @@
-import 'package:fashion_shop_uikit/dummy/dummy_size_vo.dart';
+class ClothSizeVO {
+  String? size;
+  bool? isSelected;
 
-List<DummySizeVO> dummySizeList = [
-  DummySizeVO(
+  ClothSizeVO({this.size, this.isSelected});
+}
+
+List<ClothSizeVO> clothSizeList = [
+  ClothSizeVO(
     size: "S",
     isSelected: false,
   ),
-  DummySizeVO(
+  ClothSizeVO(
     size: "M",
     isSelected: false,
   ),
-  DummySizeVO(
+  ClothSizeVO(
     size: "L",
     isSelected: false,
   ),
-  DummySizeVO(
+  ClothSizeVO(
     size: "XL",
     isSelected: false,
   ),
-  DummySizeVO(
+  ClothSizeVO(
     size: "XXL",
     isSelected: false,
   ),

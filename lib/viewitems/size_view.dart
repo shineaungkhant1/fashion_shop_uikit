@@ -1,13 +1,14 @@
-import 'package:fashion_shop_uikit/dummy/dummy_size_vo.dart';
+
 import 'package:fashion_shop_uikit/resources/colors.dart';
 import 'package:fashion_shop_uikit/resources/dimens.dart';
+import 'package:fashion_shop_uikit/resources/string.dart';
 import 'package:flutter/material.dart';
 
 const kAnimationDuration = Duration(milliseconds: 500);
 
 class SizeView extends StatefulWidget {
 
-  final DummySizeVO sizeVo;
+  final ClothSizeVO sizeVo;
 
   const SizeView({super.key, required this.sizeVo});
 
@@ -18,7 +19,7 @@ class SizeView extends StatefulWidget {
 class _SizeViewState extends State<SizeView> {
   @override
   Widget build(BuildContext context) {
-    DummySizeVO sizeVo = widget.sizeVo;
+    ClothSizeVO sizeVo = widget.sizeVo;
     return GestureDetector(
       onTap: () {
         setState(() {
