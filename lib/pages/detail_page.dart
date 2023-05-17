@@ -120,7 +120,7 @@ class _DescriptionSectionViewState extends State<DescriptionSectionView> {
                   isDescriptionShown = !isDescriptionShown;
                 });
               },
-              child: ExplicitAnimationShownDescriptionButton(),
+              child: const ExplicitAnimationShownDescriptionButton(),
             ),
           ],
         ),

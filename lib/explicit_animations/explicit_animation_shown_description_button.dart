@@ -43,10 +43,10 @@ class _ExplicitAnimationShownDescriptionButtonState
   Widget build(BuildContext context) {
     return AnimatedBuilder(
       animation: showDescriptionAnimationController.view,
-      builder: (context, _child) => RotationTransition(
+      builder: (context, child) => RotationTransition(
         turns: rotationAnimation,
-        child: Icon(
-          Icons.arrow_drop_up,
+        child: const Icon(
+          Icons.keyboard_arrow_up,
           size: MARGIN_XLARGE + 10,
         ),
       ),
